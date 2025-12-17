@@ -1,55 +1,67 @@
-# ESP32 Smart Energy Control System
-
-## Project Overview
-The ESP32 Smart Energy Control System is an IoT-based solution designed to enable
-intelligent monitoring and control of electrical appliances using low-cost embedded
-hardware and relay-based automation.
-
-The system focuses on **energy efficiency, reliability, and adaptability**, making it
-suitable for homes, offices, and small facilities—particularly in regions with
-unstable power supply and growing demand for smart energy management solutions.
-
----
-
-## Problem Statement
-Many homes and small facilities lack affordable systems to:
-- Monitor and control electrical loads efficiently
-- Reduce unnecessary power consumption
-- Integrate backup or solar power systems
-- Automate appliance operation without complex infrastructure
-
-This project addresses these challenges using an **ESP32-based embedded control
-architecture** that is simple, scalable, and cost-effective.
-
----
-
-## Solution Summary
-The system uses an ESP32 microcontroller to control electrical loads via opto-isolated
-relay modules. Appliances can be switched automatically or remotely based on logic,
-timers, or future sensor inputs.
-
-The design supports integration with:
-- Solar or backup power systems
-- IoT dashboards and mobile applications
-- Future energy monitoring and analytics modules
-
----
-
 ## Key Features
-- ESP32-based embedded controller (Wi-Fi & Bluetooth capable)
-- Relay-based switching of AC and DC electrical loads
-- Modular and expandable hardware architecture
-- Designed for low-power and solar-powered environments
-- Suitable for IoT-based automation and energy management
-- Hardware-isolated control for safety and reliability
+- ESP32-based control (Wi-Fi / Bluetooth capable)
+- Relay-based switching of AC and DC loads
+- Energy-efficient design suitable for solar or backup power
+- Modular architecture for easy expansion
+- Designed for IoT-based monitoring and automation
 
 ---
 
-## System Architecture
-**Core Components**
-- ESP32 DevKit V1 (Control & Connectivity)
-- Opto-isolated 5V Relay Module (Load Switching)
-- External power source (AC adapter or solar + battery)
-- Electrical loads (lights, fans, appliances)
+## Hardware Components
+- ESP32 DevKit V1
+- 5V Opto-isolated Relay Module
+- Power supply (AC adapter or solar + battery system)
+- Electrical loads (lighting, fans, appliances)
 
-**Logical Flow**
+---
+
+## Software & Tools
+- Arduino Framework
+- ESP32 Core
+- C / C++
+- GPIO and Serial Communication
+
+---
+
+## Use Cases
+- Smart home and office automation
+- Energy management and load control
+- Solar-powered or hybrid energy systems
+- IoT-based appliance control platforms
+- Prototype foundation for smart energy solutions
+
+---
+
+## Deployment Context
+This system is designed with **developing-region energy realities** in mind, including:
+- Intermittent grid power
+- Solar and backup energy integration
+- Cost-sensitive deployments
+- Ease of installation and maintenance
+
+---
+
+## Future Roadmap
+- Mobile app (Android) for remote control
+- Web-based energy dashboard
+- Energy consumption monitoring
+- Integration with smart meters
+- Role-based access and secure authentication
+
+---
+
+## Project Status
+**Prototype / MVP**  
+Actively evolving toward a deployable smart energy solution.
+
+---
+
+## Author
+**Yaquba Jibo Hassan**  
+Hard-Tech Specialist | IoT & Software Engineer  
+Kano, Nigeria  
+
+---
+
+## License
+MIT License
