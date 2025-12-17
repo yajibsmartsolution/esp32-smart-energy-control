@@ -1,9 +1,3 @@
-## Key Features
-- ESP32-based control (Wi-Fi / Bluetooth capable)
-- Relay-based switching of AC and DC loads
-- Energy-efficient design suitable for solar or backup power
-- Modular architecture for easy expansion
-- Designed for IoT-based monitoring and automation
 
 ---
 
